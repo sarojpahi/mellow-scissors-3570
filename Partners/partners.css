@@ -94,6 +94,11 @@ font-size: 16px;
 #vid p{
     margin: auto;
     margin-top: 30px;
+    color: black;
+    filter: contrast(0.5);
+}
+#vid h1{
+    color: black;
 }
 #nxttovid{
     width: 100%;
@@ -155,5 +160,10 @@ font-size: 16px;
 }
 #last1>div+div>a{
     color: #0037ff;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+#last1>div+div>a:hover{
+    color: black;
 }
 
